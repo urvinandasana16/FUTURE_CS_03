@@ -32,10 +32,10 @@ All testing was passive and non-intrusive. No production systems were targeted a
 
 | ID | Finding | Risk | OWASP API Security Top 10 (2023) |
 |---|---|---|---|
-| F-01 | No authentication on DELETE endpoint | High | API1:2023 â Broken Object Level Authorization |
-| F-02 | Authentication token exposed in response body | Medium | API2:2023 â Broken Authentication |
-| F-03 | Missing critical security headers | Medium | API8:2023 â Security Misconfiguration |
-| F-04 | No rate limiting on API endpoints | Medium | API4:2023 â Unrestricted Resource Consumption |
+| F-01 | No authentication on DELETE endpoint | High | Broken Object Level Authorization |
+| F-02 | Authentication token exposed in response body | Medium | Broken Authentication |
+| F-03 | Missing critical security headers | Medium | Security Misconfiguration |
+| F-04 | No rate limiting on API endpoints | Medium | Unrestricted Resource Consumption |
 
 ## Security Indicators Observed
 - An unauthenticated `DELETE /posts/1` request returned `200 OK`
@@ -71,7 +71,7 @@ The analysis identified four API security risks related to authentication, token
 
 ## Author
 **Urvi Nandasana**  
-Cyber Security Intern â Future Interns
+Cyber Security Intern @Future Interns
 
 ## Project Report
 The complete assessment report is available in this repository:
